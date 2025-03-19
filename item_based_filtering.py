@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Load configuration from JSON
 CONFIG_FILE = "config.json"
-DEFAULT_PATH = "~/.cache/kagglehub/datasets/rounakbanik/the-movies-dataset/versions/7"
+DEFAULT_PATH = "./data/the-movies-dataset"
 
 if os.path.exists(CONFIG_FILE):
     with open(CONFIG_FILE, "r") as f:

@@ -11,6 +11,7 @@ tfplan
 backend.tf
 provider.tf
 OLD
+data/
 # Node artifact files
 node_modules/
 dist/
